@@ -1,5 +1,4 @@
 # cosas sobre mi
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -40,6 +39,12 @@
     <textarea placeholder="Escribe aquí tus ideas..."></textarea>
     <button class="btn-guardar">Guardar nota</button>
   </div>
+  body {
+  color: #333; /* Color del texto */
+  background-color: #298A43; /* Color de fondo */
+  background-image: url('fondo.jpg'); /* Imagen de fondo */
+  background-size: cover; /* Ajuste de imagen */
+}
 
 
 </body>
