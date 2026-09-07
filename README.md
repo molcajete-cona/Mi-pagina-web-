@@ -1,46 +1,71 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cosas sobre mí</title>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
+/* Estilos generales de la página */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #298A43;
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+}
 
-  <header>
-    <h1>Cosas sobre mí</h1>
-  </header>
+header h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
 
-  <main class="contenedor">
-    
-    <div class="bloc-de-notas">
-      <h2>Colores favoritos</h2>
-      <textarea placeholder="Verde, azul y negro..."></textarea>
-      <button class="btn-guardar">Guardar nota</button>
-    </div>
+/* Grilla para ordenar las tarjetas */
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
-    <div class="bloc-de-notas">
-      <h2>Comida favorita</h2>
-      <textarea placeholder="Enchiladas verdes, pescado..."></textarea>
-      <button class="btn-guardar">Guardar nota</button>
-    </div>
+/* Tarjetas tipo bloc de notas */
+.bloc-de-notas {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    <div class="bloc-de-notas">
-      <h2>Mis Notas</h2>
-      <textarea placeholder="Escribe aquí tus ideas..."></textarea>
-      <button class="btn-guardar">Guardar nota</button>
-    </div>
+.bloc-de-notas h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #298A43;
+}
 
-    <div class="bloc-de-notas">
-      <h2>Mis Notas</h2>
-      <textarea placeholder="Escribe aquí tus ideas..."></textarea>
-      <button class="btn-guardar">Guardar nota</button>
-    </div>
+textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  resize: vertical;
+  box-sizing: border-box;
+}
 
-  </main>
+/* Botón de guardar */
+.btn-guardar {
+  background-color: #298A43;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
 
-</body>
-</html>
-
-
+.btn-guardar:hover {
+  background-color: #1f6832;
+}
