@@ -15,6 +15,32 @@
     <textarea placeholder="Escribe aquí tus ideas..."></textarea>
     <button class="btn-guardar">Guardar nota</button>
   </div>
+   <div class="bloc-de-notas">
+    <h1>Mis Notas</h1>
+    <textarea placeholder="Escribe aquí tus ideas..."></textarea>
+    <button class="btn-guardar">Guardar nota</button>
+  </div>
+ <div class="bloc-de-notas">
+    <h1>Mis Notas</h1>
+    <textarea placeholder="Escribe aquí tus ideas..."></textarea>
+    <button class="btn-guardar">Guardar nota</button>
+  </div>
+ <div class="bloc-de-notas">
+    <h1>Mis Notas</h1>
+    <textarea placeholder="Escribe aquí tus ideas..."></textarea>
+    <button class="btn-guardar">Guardar nota</button>
+  </div>
+ <div class="bloc-de-notas">
+    <h1>Mis Notas</h1>
+    <textarea placeholder="Escribe aquí tus ideas..."></textarea>
+    <button class="btn-guardar">Guardar nota</button>
+  </div>
+ <div class="bloc-de-notas">
+    <h1>Mis Notas</h1>
+    <textarea placeholder="Escribe aquí tus ideas..."></textarea>
+    <button class="btn-guardar">Guardar nota</button>
+  </div>
+
 
 </body>
 </html>
